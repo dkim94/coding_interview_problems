@@ -1,11 +1,6 @@
 import random
 
-
-class Node:
-    def __init__(self, val):
-        self.val = val
-        self.prev = None
-        self.next = None
+from node import Node
 
 
 # O(n): Iterate entire linked list (twice, O(2n) to be precise)

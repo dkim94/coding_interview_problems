@@ -1,11 +1,6 @@
 import random
 
-
-class Node:
-    def __init__(self, val: int) -> None:
-        self.next: Node = None
-        self.val: int = val
-
+from node import Node
 
 def find_kth_from_behind(head: Node, k: int):
     curr = head
