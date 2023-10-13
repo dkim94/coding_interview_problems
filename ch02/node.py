@@ -3,3 +3,4 @@ class Node:
         self.val: int= val
         self.prev: Node = None
         self.next: Node = None
+        self.visited: bool = False
